@@ -14,6 +14,12 @@ corresponding page of [firsching.ch](https://firsching.ch):
 | [`inscribe/neighborly/`](inscribe/neighborly) | inscribed realizations of neighborly polytopes | [firsching.ch/polytopes](https://firsching.ch/polytopes) |
 | [`equiarea/`](equiarea) | equiareal embeddings of 4-connected triangulations of the triangle | [firsching.ch/equiarea](https://firsching.ch/equiarea) |
 
+The neighborly files for d = 5, 6, 7 with n ≤ d + 3 vertices were lost and
+regenerated in 2026: each is a random sample of points on the unit sphere,
+obtained as inverse stereographic images of rational points, so they are
+exactly inscribed. For `neighborly8_5` and `neighborly10_7` the order of the
+combinatorial types does not follow Miyata's numbering.
+
 ## Large files
 
 Files larger than 50 MB are not in the repository. They are attached,
